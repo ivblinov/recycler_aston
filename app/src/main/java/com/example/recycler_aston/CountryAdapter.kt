@@ -1,11 +1,14 @@
 package com.example.recycler_aston
 
 
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.recycler_aston.databinding.CountryListItemBinding
+
+private const val TAG = "MyLog"
 
 class CountryAdapter : RecyclerView.Adapter<CountryViewHolder>() {
 
@@ -48,6 +51,7 @@ class CountryAdapter : RecyclerView.Adapter<CountryViewHolder>() {
     }
 
     override fun onBindViewHolder(holder: CountryViewHolder, position: Int) {
+
         val item = values[position]
         holder.binding.tvId.text = item.name
 

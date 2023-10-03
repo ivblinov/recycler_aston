@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">recycler_aston</string>
+    <string name="open_contacts">Открыть контакты</string>
+    <string name="name">name</string>
+    <string name="last_name">Last Name</string>
+    <string name="_89231119875">89231119875</string>
+    <string name="_1">1</string>
+    <string name="delete">delete</string>
+    <string name="edit">edit</string>
+    <string name="add">add</string>
+    <string name="name_field">Name</string>
+    <string name="last_name_edit">Last Name</string>
+    <string name="phone_number">Phone Number</string>
 </resources>
